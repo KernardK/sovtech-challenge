@@ -42,7 +42,7 @@ export default function AboutMe() {
         <br />
       </p>
 
-      <h2 className={styles.title2}>I've got some skills</h2>
+      <h2 className={styles.title2}>I have some skills</h2>
       <p className={styles.aboutDesc}>
         Here are some of the skills that I have acquired over the years
       </p>
@@ -147,7 +147,7 @@ export default function AboutMe() {
           thinking that I love to see in organizations and this another reason
           that drew me closer to SovTech. I believe that being at SovTech will
           allow me to grow and further my skills and become a trully exceptional
-          software engineer. As you can tell I'm very excited for the
+          software engineer. As you can tell I am very excited for the
           opportunity to become a SovTech member and contribute to the team and
           solve challenges, helping to change the world one line of code at a
           time.

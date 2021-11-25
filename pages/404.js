@@ -12,7 +12,7 @@ export default function NotFoundPage() {
           <BiErrorAlt /> 404
         </h1>
         <h4>Appologies, There is nothing to see here</h4>
-        <Link href="/">Let's Go Home</Link>
+        <Link href="/">Let us Go Home</Link>
       </div>
     </Layout>
   );

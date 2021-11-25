@@ -12,14 +12,22 @@ export default function Footer() {
       <div className={styles.socialGroup}>
         {/* Github Social */}
         <div className={styles.socialIcon}>
-          <a target="_blank" href="https://github.com/KernardK">
+          <a
+            target="_blank"
+            href="https://github.com/KernardK"
+            rel="noopener noreferrer"
+          >
             <SiGithub />
           </a>
         </div>
 
         {/* LinkedIn Social */}
         <div className={styles.socialIcon}>
-          <a target="_blank" href="https://www.linkedin.com/in/kernardk/">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/kernardk/"
+            rel="noopener noreferrer"
+          >
             <SiLinkedin />
           </a>
         </div>
