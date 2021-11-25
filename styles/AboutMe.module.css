@@ -33,7 +33,7 @@
 
 /* Skills Section */
 .skills {
-  position: relative;
+  /* position: relative; */
   margin: 100px auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -65,4 +65,18 @@
 
 .skillCard:hover .skill {
   color: #fff;
+}
+
+.sovtech {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+.sovtech .title {
+  text-transform: capitalize;
+}
+
+.sovtech .motivation {
 }
