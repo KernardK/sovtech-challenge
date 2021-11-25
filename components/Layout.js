@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 import Footer from "./Footer";
 import styles from "../styles/Layout.module.css";
@@ -12,6 +13,24 @@ export default function Layout({ title, keywords, description, children }) {
         <meta name="description" content={description} />
         <meta name="keywords" content={keywords} />
       </Head>
+
+      {/* Header Styling */}
+      <header className={styles.header}>
+        <div className={styles.logo}>
+          <Link href="/">
+            <a>Kernard</a>
+          </Link>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <Link href="/projects">
+                <a>Projects</a>
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
       <div className={styles.container}>{children}</div>
       <Footer />
