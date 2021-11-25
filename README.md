@@ -1,7 +1,5 @@
 ## Take a look at the project
 
-[![Live Site](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/colbyfayock/next-sass-starter)
-
 ## Getting Started
 
 Run the following command to create a new project with this Starter:
