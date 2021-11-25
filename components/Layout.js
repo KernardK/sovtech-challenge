@@ -1,11 +1,15 @@
 import Head from "next/head";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
+import Showcase from "./Showcase";
+import AboutMe from "./AboutMe";
 import Footer from "./Footer";
-import styles from "../styles/Layout.module.css";
+import styles from "@/styles/Layout.module.css";
 
 // Layout component taking in props
 export default function Layout({ title, keywords, description, children }) {
+  const router = useRouter();
   return (
     <div>
       <Head>
@@ -14,7 +18,6 @@ export default function Layout({ title, keywords, description, children }) {
         <meta name="keywords" content={keywords} />
       </Head>
 
-      {/* Header Styling */}
       <header className={styles.header}>
         <div className={styles.logo}>
           <Link href="/">
@@ -32,6 +35,8 @@ export default function Layout({ title, keywords, description, children }) {
         </nav>
       </header>
 
+      {router.pathname === "/" && <Showcase />}
+      <AboutMe />
       <div className={styles.container}>{children}</div>
       <Footer />
     </div>
