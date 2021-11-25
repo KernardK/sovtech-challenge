@@ -22,3 +22,7 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see your new project
+
+# Or Even Better
+
+Click the link below to view the live site https://kernard-sovtech-challenge.vercel.app/
